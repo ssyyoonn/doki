@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Routes basename={process.env.PUBLIC_URL}>
-        <Route path='/' element={<Main />} />
+        <Route path={'${process.env.PUBLIC_URL}/'} element={<Main />} />
         
         <Route path='/prac' element={<Prac />} />
 
