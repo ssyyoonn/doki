@@ -1,0 +1,26 @@
+.Header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: #eaf0e9;
+  }
+
+.logoimg{
+  height: 80%;
+}
+
+/* 모바일 우선, 아래는 데스크탑의 경우 적용되는 스타일*/
+@media (min-width: 992px) { 
+  .Header {
+      position: fixed;
+      background-color: #eaf0e9;
+      height: 50px;
+      width: 620px;
+  }
+}

@@ -1,0 +1,153 @@
+.head_PT2{
+    top:50px;
+    position: fixed;
+    width: 100vw;
+}
+
+#headtext1 {
+    background-color: #1a3b5c;
+    margin: 0px;
+    color: white;
+    font-weight: normal;
+    font-size: large;
+    padding: 10px;
+}
+
+
+.screen_PT2{
+    background-color: white;
+    padding-top: 130px;
+    width: 100vw;
+}
+
+#padding_PT2{
+    padding-bottom: 85px;
+}
+
+.col{
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    background-color: #D8D8D8;
+}
+
+.list_PT2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    color: black;
+}
+
+td{
+    width: calc(100vw / 5);
+}
+
+.list_PT2>tr>td{
+    padding: 10px 0 10px 0;
+}
+
+.price_PT2{
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 5px;
+    color: blue;
+}
+
+#step_color{
+    background-color: #b3d1a4;
+}
+
+.seatdiv_PT2{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+.seatdiv1_PT2{
+    background-color: #1a3b5c;
+    color: white;
+    padding: 5px;
+}
+.seatdiv1_PT2>p{
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+.seatdiv2_PT2{
+    background-color: #cfdfec;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #1a3b5c;
+    padding: 10px;
+    margin: 0;
+}
+.seatdiv2_PT2>p{
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+
+.seatbg_PT2{
+    padding-top: 100px;
+    margin: 0 20px 0 20px;
+}
+
+.seattable_PT2{
+    width: 35vw;
+}
+
+#seattableL_PT2{
+    float: left;
+}
+#seattableR_PT2{
+    float: right;
+}
+
+.seat_PT2{
+    border:  2px solid #1a3b5c;
+    border-radius: 10px;
+    margin: auto;
+    height: 10vh;
+    line-height: 10vh;
+    background-color: white;
+}
+
+#seat7a_PT2{
+    background-color: #b3d1a4;
+}
+
+
+
+
+@media (min-width: 992px) {
+    .head_PT2 {
+        width: 620px;
+        }
+
+    .screen_PT2{
+        width: 100%;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .list_PT2{
+        width: 100%;
+    }
+
+    td {
+        width: 20%;
+        font-size: 16pt;
+    }
+    .seatdiv_PT2{
+        width: 620px;
+    }
+    .seattable_PT2{
+        width: 40%;
+    }
+    .seat_PT2{
+        height: 80px;
+        line-height: 80px;
+    }
+}

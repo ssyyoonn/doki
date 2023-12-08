@@ -1,0 +1,298 @@
+.head_CT1 {
+    background-color: #1a3b5c;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    width: 100vw;
+}
+
+#headtextCT1 {
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    font-size: large;
+}
+
+.locate {
+    width: calc(100vw / 2);
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin: 10px;
+    color: #3B96ED;
+}
+
+.map {
+    clear: both;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    border: solid 2px #D8D8D8;
+}
+
+.screen_CT1 {
+    background-color: #f8f8f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.date {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.date>p {
+    margin: 0;
+}
+
+.info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info>p {
+    margin: 0;
+}
+
+
+.locate_map>div {
+    font-size: 10pt;
+    width: calc(50vw - 20px);
+    display: inline-block;
+}
+
+.locate_sel {
+    font-size: 20pt;
+    font-weight: bold;
+    margin: auto;
+    width: 70%;
+}
+
+.datepicker {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    width: 80vw;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    border: 0;
+}
+
+
+.head_CT2{
+    top:50px;
+    position: fixed;
+    width: 100vw;
+}
+
+#headtext1 {
+    background-color: #1a3b5c;
+    margin: 0px;
+    color: white;
+    font-weight: normal;
+    font-size: large;
+    padding: 10px;
+}
+
+
+.screen_CT2{
+    background-color: white;
+    padding-top: 130px;
+    width: 100vw;
+}
+
+#padding_CT2{
+    padding-bottom: 85px;
+}
+
+.col{
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    background-color: #D8D8D8;
+}
+
+.list_CT2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    color: black;
+}
+
+td{
+    width: calc(100vw / 5);
+}
+
+.list_CT2>tr>td{
+    padding: 10px 0 10px 0;
+}
+
+.price_CT2{
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 5px;
+    color: blue;
+}
+
+#step_color{
+    background-color: #b3d1a4;
+}
+
+.seatdiv_CT2{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+.seatdiv1_CT2{
+    background-color: #1a3b5c;
+    color: white;
+    padding: 5px;
+}
+.seatdiv1_CT2>p{
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+.seatdiv2_CT2{
+    background-color: #cfdfec;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #1a3b5c;
+    padding: 10px;
+    margin: 0;
+}
+.seatdiv2_CT2>p{
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+
+.seatbg_CT2{
+    padding-top: 100px;
+    margin: 0 20px 0 20px;
+}
+
+.seattable_CT2{
+    width: 35vw;
+}
+
+#seattableL_CT2{
+    float: left;
+}
+#seattableR_CT2{
+    float: right;
+}
+
+.seat_CT2{
+    border:  2px solid #1a3b5c;
+    border-radius: 10px;
+    margin: auto;
+    height: 10vh;
+    line-height: 10vh;
+    background-color: white;
+}
+
+
+
+@media (min-width: 992px) {
+    .head_CT1 {
+        background-color: #1a3b5c;
+        height: 50px;
+        position: fixed;
+        top: 50px;
+        width: 620px;
+    }
+
+    .locate {
+        width: 310px;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .map {
+        clear: both;
+        background-color: white;
+        margin: auto;
+        border-radius: 20px;
+        border: solid 2px #D8D8D8;
+        width: 550px;
+    }
+
+    .screen_CT1 {
+        background-color: #f8f8f8;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: 100vh;
+        width: auto;
+    }
+
+    .locate_map {
+        padding-bottom: 20px;
+    }
+
+    .locate_map>div {
+        font-size: 12pt;
+        width: 290px;
+        display: inline-block;
+    }
+
+    .datepicker {
+        background-color: transparent;
+        color: black;
+        cursor: pointer;
+        width: 600px;
+        margin-top: 0;
+        text-align: center;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: normal;
+        font-size: 1em;
+        border: 0;
+    }
+
+    .date {
+        margin-top: 20px;
+    }
+
+    .head_CT2 {
+        width: 620px;
+        }
+
+    .screen_CT2{
+        width: 100%;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .list_CT2{
+        width: 100%;
+    }
+
+    td {
+        width: 20%;
+        font-size: 16pt;
+    }
+    .seatdiv_CT2{
+        width: 620px;
+    }
+    .seattable_CT2{
+        width: 40%;
+    }
+    .seat_CT2{
+        height: 80px;
+        line-height: 80px;
+    }
+}

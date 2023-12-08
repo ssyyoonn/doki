@@ -1,0 +1,78 @@
+.Main{
+   text-align: center;
+}
+.contentimg{
+  height: calc((100vh - 50px)/2 - 50px);
+}
+
+.screen_main{
+  margin-top: 50px;
+  padding: 0px;
+  height: calc(100vh - 100px);
+  width: 100vw;
+  
+}
+
+.wrap_main{
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.button_main{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: calc((100vh - 50px)/2);
+  background-color: white;
+}
+
+#topbutton{
+  border-bottom: #b3d1a4 3px solid;
+  box-sizing: border-box;
+}
+
+.text_main{
+  margin: 0;
+}
+
+
+/* 모바일 우선, 아래는 데스크탑의 경우 적용되는 스타일*/
+@media (min-width: 992px) { 
+
+   .contentimg{
+      height: 300px;
+   }
+
+   .screen_main{
+      margin-top: 50px;
+      padding: 0px;
+      height: 861px;
+      width: auto;
+      
+   }
+
+   .wrap_main{
+      position: static;
+      height: 400px;
+      top: auto;
+      transform: none;
+      padding-top: 15px;
+   }
+
+   .button_main{
+      position: static;
+      width: 620px;
+      height: 430.5px;
+   }
+
+   .text_main{
+      font-size: 16pt;
+   }
+
+   #topbutton{
+      border-bottom: #b3d1a4 3px solid;
+      box-sizing: border-box;
+   }
+
+ }

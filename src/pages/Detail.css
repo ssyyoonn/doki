@@ -1,0 +1,71 @@
+ .contentimg{
+   height: calc((100vh - 50px)/2 - 50px);
+ }
+ 
+ .screen_detail{
+   margin-top: 50px;
+   padding: 0px;
+   height: calc(100vh - 100px);
+   width: 100vw;
+   
+ }
+ 
+ .wrap{
+   position: relative;
+   top: 50%;
+   transform: translate(0, -50%);
+ }
+ 
+ .button{
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   height: calc((100vh - 50px)/2);
+   background-color: white;
+ }
+ 
+ #topbutton{
+   border-bottom: #b3d1a4 3px solid;
+   box-sizing: border-box;
+ }
+ 
+ 
+ /* 모바일 우선, 아래는 데스크탑의 경우 적용되는 스타일*/
+ @media (min-width: 992px) { 
+ 
+    .contentimg{
+       height: 300px;
+    }
+ 
+    .screen_detail{
+       margin-top: 50px;
+       padding: 0px;
+       height: 861px;
+       width: auto;
+       
+    }
+
+    .wrap{
+       position: static;
+       height: 400px;
+       top: auto;
+       transform: none;
+       padding-top: 15px;
+       display: flex;
+       justify-content: center;
+        align-items: center;
+    }
+ 
+    .button{
+       position: static;
+       width: 620px;
+       height: 430.5px;
+    }
+ 
+    #topbutton{
+       border-bottom: #b3d1a4 3px solid;
+       box-sizing: border-box;
+    }
+ 
+  }
+ 
