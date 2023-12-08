@@ -16,7 +16,7 @@ import CT1 from './pages/Chal/CT1';
 function App() {
   return (
     <div className="App">
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path='/' element={<Main />} />
         
         <Route path='/prac' element={<Prac />} />
