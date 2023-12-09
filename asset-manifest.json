@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/doki-pj/static/css/main.d89b64c3.css",
-    "main.js": "/doki-pj/static/js/main.9dcb9de3.js",
+    "main.js": "/doki-pj/static/js/main.0af6a3a9.js",
     "index.html": "/doki-pj/index.html",
     "main.d89b64c3.css.map": "/doki-pj/static/css/main.d89b64c3.css.map",
-    "main.9dcb9de3.js.map": "/doki-pj/static/js/main.9dcb9de3.js.map"
+    "main.0af6a3a9.js.map": "/doki-pj/static/js/main.0af6a3a9.js.map"
   },
   "entrypoints": [
     "static/css/main.d89b64c3.css",
-    "static/js/main.9dcb9de3.js"
+    "static/js/main.0af6a3a9.js"
   ]
 }
