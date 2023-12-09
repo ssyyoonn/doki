@@ -7,10 +7,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='{process.enc.PUBLIC_URL}'>
+  <BrowserRouter>
     <ScrollToTop>
       <App />
     </ScrollToTop>
-  </BrowserRouter>,
+  </BrowserRouter>
 );
 
