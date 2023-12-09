@@ -12,7 +12,7 @@ const Main = () => {
                 <Link to='/prac'>
                     <div className='button_main' id='topbutton'>
                         <div className='wrap_main'>
-                            <img alt="연습하기" src="/img/doki_prac.png" className='contentimg' />
+                            <img alt="연습하기" src="https://ssyyoonn.github.io/doki-pj/img/doki_prac.png" className='contentimg' />
                             <p className='text_main'>도키와 함께 연습해볼래요</p>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const Main = () => {
                 <Link to='/chal'>
                     <div className='button_main'>
                         <div className='wrap_main'>
-                            <img alt="도전하기" src="/img/doki_chal.png" className='contentimg' />
+                            <img alt="도전하기" src="https://ssyyoonn.github.io/doki-pj/img/doki_chal.png" className='contentimg' />
                             <p className='text_main'>도키 없이 도전해볼래요</p>
                         </div>
                     </div>

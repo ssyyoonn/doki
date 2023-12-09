@@ -39,32 +39,32 @@ const PC1 = () => {
         return (
             <div className='menuwrap_PC1'>
                 <div className='menu_PC1'>
-                    <img alt="아메리카노" src="/img/cafe/1americano.png" className='cafeimg' />
+                    <img alt="아메리카노" src="https://ssyyoonn.github.io/doki-pj/img/cafe/1americano.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>아메리카노</h5>
                     <h5 className='menuprice_PC1'>4,000원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="카페라떼" src="/img/cafe/1cafelatte.png" className='cafeimg' />
+                    <img alt="카페라떼" src="https://ssyyoonn.github.io/doki-pj/img/cafe/1cafelatte.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>카페라떼</h5>
                     <h5 className='menuprice_PC1'>4,500원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="바닐라라떼" src="/img/cafe/1vanilla.png" className='cafeimg' />
+                    <img alt="바닐라라떼" src="https://ssyyoonn.github.io/doki-pj/img/cafe/1vanilla.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>바닐라라떼</h5>
                     <h5 className='menuprice_PC1'>4,500원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="연습하기" src="/img/cafe/1caramel.png" className='cafeimg' />
+                    <img alt="연습하기" src="https://ssyyoonn.github.io/doki-pj/img/cafe/1caramel.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>카라멜 마끼아또</h5>
                     <h5 className='menuprice_PC1'>5.500원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="연습하기" src="/img/cafe/1mocha.png" className='cafeimg' />
+                    <img alt="연습하기" src="https://ssyyoonn.github.io/doki-pj/img/cafe/1mocha.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>카페모카</h5>
                     <h5 className='menuprice_PC1'>6,000원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="연습하기" src="/img/cafe/1whitemocha.png" className='cafeimg' />
+                    <img alt="연습하기" src="https://ssyyoonn.github.io/doki-pj/img/cafe/1whitemocha.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>화이트모카</h5>
                     <h5 className='menuprice_PC1'>6,000원</h5>
                 </div>
@@ -75,7 +75,7 @@ const PC1 = () => {
         return (
             <div className='menuwrap_PC1'>
                 <div className='menu_PC1'>
-                    <img alt="아메리카노" src="/img/cafe/2dalgona.png" className='cafeimg' />
+                    <img alt="아메리카노" src="https://ssyyoonn.github.io/doki-pj/img/cafe/2dalgona.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>달고나라떼</h5>
                     <h5 className='menuprice_PC1'>6,000원</h5>
                 </div>
@@ -89,27 +89,27 @@ const PC1 = () => {
                         }
                     }
                 >
-                    <img alt="카페라떼" src="/img/cafe/2greentea.png" className='cafeimg' />
+                    <img alt="카페라떼" src="https://ssyyoonn.github.io/doki-pj/img/cafe/2greentea.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>녹차라떼</h5>
                     <h5 className='menuprice_PC1'>4,500원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="바닐라라떼" src="/img/cafe/2hongsi.png" className='cafeimg' />
+                    <img alt="바닐라라떼" src="https://ssyyoonn.github.io/doki-pj/img/cafe/2hongsi.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>홍시주스</h5>
                     <h5 className='menuprice_PC1'>4,500원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="연습하기" src="/img/cafe/2mintchoco.png" className='cafeimg' />
+                    <img alt="연습하기" src="https://ssyyoonn.github.io/doki-pj/img/cafe/2mintchoco.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>민트초코라떼</h5>
                     <h5 className='menuprice_PC1'>5.500원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="연습하기" src="/img/cafe/2strawberry.png" className='cafeimg' />
+                    <img alt="연습하기" src="https://ssyyoonn.github.io/doki-pj/img/cafe/2strawberry.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>딸기주스</h5>
                     <h5 className='menuprice_PC1'>4,500원</h5>
                 </div>
                 <div className='menu_PC1'>
-                    <img alt="연습하기" src="/img/cafe/2sweetpotato.png" className='cafeimg' />
+                    <img alt="연습하기" src="https://ssyyoonn.github.io/doki-pj/img/cafe/2sweetpotato.png" className='cafeimg' />
                     <h5 className='menuname_PC1'>고구마라떼</h5>
                     <h5 className='menuprice_PC1'>4,500원</h5>
                 </div>
