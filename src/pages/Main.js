@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Main = () => {
     return (
-        <div>
+        <div className='main_div'>
             <Header />
             <div className='screen_main'>
                 <Link to='/prac'>
