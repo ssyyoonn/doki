@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# ✅ 도와줘요 키오스크
+- **2023-2학기 융합캡스톤디자인** 강의에서 진행한 프로젝트입니다.
+- 디지털 취약계층을 위한 **키오스크 학습 서비스**를 제공하는 웹사이트입니다.
+- https://github.com/ssyyoonn/doki-pj
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* * *
+# 서비스 소개
+### 1. 연습하기
+#### &nbsp;&nbsp;🚆 기차표 예매 어플
+&nbsp;&nbsp; 
+#### &nbsp;&nbsp;☕ 카페 키오스크
 
-## Available Scripts
+### 2. 도전하기
+#### &nbsp;&nbsp;🚆 기차표 예매 어플
+#### &nbsp;&nbsp;☕ 카페 키오스크
 
-In the project directory, you can run:
+* * *   
 
-### `npm start`
+# 🔧 사용 기술
+#### 메인 기술
+- `React`, `CSS`, `JavaScript`
+#### 기타 라이브러리
+- `datepicker`: 기차표 예매 어플을 구현할 때, 기차의 출발일을 선택하는 기능을 위해 사용했습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* * *
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🔍 사용 방법
+#### 1. 배포된 웹사이트를 통해 플레이
+- [웹사이트 바로가기](https://github.com/ssyyoonn/doki-pj)
+#### 2. `git clone` 을 사용한 로컬에서의 플레이
+> 1. `git clone 'https://github.com/ssyyoonn/doki-pj.git'`     
+> 2.  `npm install`로 node package 다운로드      
+> 3.  `npm start`로 로컬에서 플레이      
+- 주의사항: 로컬 플레이 시 코드 수정 필요
+> 1. 이미지의 절대경로`(https://ssyyoonn.github.io/doki-pj/이미지 폴더/이미지 이름.png)`를 `/이미지 폴더/이미지 이름.png` 형태로 수정 필요
+> 2. `package.js` 파일 내부의 `"homepage": "https://ssyyoonn.github.io/doki-pj/"` 항목 삭제 필요
 
-### `npm test`
+* * *
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 📍 기타
+- 카페 키오스크 페이지의 이미지는 [이디야 홈페이지](https://ediya.com/) 내의 상품 이미지를 사용했습니다.
+- 
